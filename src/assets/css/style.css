@@ -1,0 +1,30 @@
+:root {
+    --color-primary: #f8f7f7;
+    --color-secundary: #f4f4f4;
+    --color-black: #000;
+    --color-dark: #333;
+    --color-white: #fff;
+    --color-light: #f4f4f4;
+
+    --width:84%;
+    --mobile-width: 92%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Playwrite NL', serif;
+    color: var(--color-dark);
+    background-color: var(--color-white);
+}
