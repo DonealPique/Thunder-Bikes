@@ -184,3 +184,9 @@ header .container .info .delivery img {
     top: 0.9rem;
     width: 13%;
 }
+
+header .container .info p {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 1rem 0 2rem;
+}
