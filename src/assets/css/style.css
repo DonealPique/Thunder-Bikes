@@ -177,3 +177,6 @@ header .container .info .delivery {
     color: var(--color-dark);
     margin-bottom: 1.5rem;
 }
+header .container .info .delivery img {
+    margin-left: 1rem;
+}
