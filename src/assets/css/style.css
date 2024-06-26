@@ -152,6 +152,6 @@ nav .icons {
 
 header {
     /* https://www.pngall.com/elements-png/download/104781 */
-    background: url(/src/assets/images/Graphic-Elements-PNG-Images-HD-1.png);
+    background: url(/src/assets/images/star-graphics.png) no-repeat center center/cover;
     width: 100%;
 }
