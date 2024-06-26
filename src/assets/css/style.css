@@ -153,5 +153,27 @@ nav .icons {
 header {
     /* https://www.pngall.com/elements-png/download/104781 */
     background: url(/src/assets/images/star-graphics.png) no-repeat center center/cover;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    top: 5rem;
+    display: grid;
+    place-items: center;
+}
+
+header .container {
+    display: grid;
+    grid-template-columns: 30rem auto 17rem;
+    align-items: center;
+    max-height: 100%;
+    margin-top: -3%;
+}
+
+header .container .info .delivery {
+    background: var(--color-primary);
+    width: max-content;
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;
+    color: var(--color-dark);
+    margin-bottom: 1.5rem;
 }
