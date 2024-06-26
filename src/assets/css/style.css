@@ -171,12 +171,16 @@ header .container {
 
 header .container .info .delivery {
     background: var(--color-primary);
-    width: max-content;
+    width: 370px;
+    height: 70px;
     padding: 0.5rem 2rem;
     border-radius: 2rem;
     color: var(--color-dark);
     margin-bottom: 1.5rem;
 }
 header .container .info .delivery img {
-    margin-left: 1rem;
+    margin-left: 0.4rem;
+    position: relative;
+    top: 0.9rem;
+    width: 13%;
 }
