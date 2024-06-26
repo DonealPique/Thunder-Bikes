@@ -208,3 +208,11 @@ header .container .info .call-to-action a:last-child {
     margin-left: 1.4rem;
     font-weight: 500;
 }
+
+header .container .info .call-to-action a:last-child:hover {
+    color:var(--color-black);
+}
+
+header .container .info .call-to-action a:last-child img {
+    filter: saturate(0);
+}
