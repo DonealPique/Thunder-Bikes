@@ -212,11 +212,6 @@ header .container .info .call-to-action a:hover {
     color: var(--color-light);
 }
 
-
-header .container .info .call-to-action a:first-child {
-margin: 20px 0 25px 0;
-}
-
 header .container .info .call-to-action a:last-child {
     display: flex;
     align-items: center;
