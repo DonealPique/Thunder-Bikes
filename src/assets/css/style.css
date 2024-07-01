@@ -194,14 +194,23 @@ header .container .info p {
 
 header .container .info .call-to-action {
     display: flex;
-    gap: 1rem;
+    gap: 1rem; /* Adjust the gap as needed */
     align-items: center;
 }
 
-header .container .info .call-to-action {
-    width: 3.6rem;
-    transition:  all 300ms ease;
+header .container .info .call-to-action a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; /* Adjust the gap between icon and text */
+    font-weight: 500;
+    color: var(--color-primary);
+    transition: all 300ms ease;
 }
+
+header .container .info .call-to-action a:hover {
+    color: var(--color-light);
+}
+
 
 header .container .info .call-to-action a:last-child {
     display: flex;
@@ -210,10 +219,6 @@ header .container .info .call-to-action a:last-child {
     font-weight: 500;
     color: var(--color-primary);
     transition: all 300ms ease;
-}
-
-header .container .info .call-to-action a:last-child:hover {
-    color: var(--color-light);
 }
 
 header .container .info .call-to-action a:last-child img {
