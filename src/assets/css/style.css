@@ -1,6 +1,5 @@
 :root {
     --color-primary: #f9f100;
-    --color-secundary: #f4f4f4;
     --color-black: #000;
     --color-dark: #333333;
     --color-light: #f4f4f4;
@@ -212,7 +211,7 @@ header .container .info .call-to-action a:last-child {
 }
 
 header .container .info .call-to-action a:last-child:hover {
-    color:var(--color-black);
+    color:var(--color-light);
 }
 
 header .container .info .call-to-action a:last-child img {
