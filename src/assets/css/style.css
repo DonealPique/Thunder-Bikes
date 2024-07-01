@@ -221,6 +221,9 @@ header .container .info .call-to-action a:last-child {
     color: var(--color-primary);
     transition: all 300ms ease;
 }
+header .container .info .call-to-action a:last-child:hover {
+   color: var(--color-dark);
+}
 
 header .container .info .call-to-action a:last-child img {
     filter: saturate(0);
