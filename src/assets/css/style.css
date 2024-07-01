@@ -228,3 +228,29 @@ header .container .info .call-to-action a:last-child:hover {
 header .container .info .call-to-action a:last-child:hover img {
     filter: drop-shadow(0 0 0.2rem var(--color-light));
 }
+
+?/* Header ends here */
+
+/* Promo-video starts here */
+
+section#promo-video {
+    background: var(--color-dark);
+    height: 100vh;
+    max-width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    padding: 0;
+    display: grid;
+    place-items: center;
+    display: none;
+}
+
+section#promo-video .container {
+    width: 74%;
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 1);
+}
+section#promo-video .container video {
+    width: 100%;
+}
