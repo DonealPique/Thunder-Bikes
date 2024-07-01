@@ -225,6 +225,6 @@ header .container .info .call-to-action a:last-child:hover {
    color: var(--color-light);
 }
 
-header .container .info .call-to-action a:last-child img {
+header .container .info .call-to-action a:last-child:hover img {
     filter: drop-shadow(0 0 0.2rem var(--color-primary));
 }
