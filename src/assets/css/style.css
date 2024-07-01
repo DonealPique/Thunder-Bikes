@@ -189,7 +189,8 @@ header .container .info .delivery img {
 header .container .info p {
     font-size: 1.3rem;
     font-weight: 500;
-    margin: 1rem 0 2rem;
+    margin: 2rem 0 2rem;
+    color: var(--color-primary);
 }
 
 header .container .info .call-to-action {
