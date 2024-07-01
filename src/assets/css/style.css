@@ -194,12 +194,16 @@ header .container .info p {
 
 header .container .info .call-to-action {
     display: flex;
+    gap: 1rem;
     align-items: center;
 }
 
 header .container .info .call-to-action {
     width: 3.6rem;
     transition:  all 300ms ease;
+}
+
+header .container .info .call-to-action a:first-child {
 }
 
 header .container .info .call-to-action a:last-child {
