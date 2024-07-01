@@ -194,14 +194,14 @@ header .container .info p {
 
 header .container .info .call-to-action {
     display: flex;
-    gap: 1rem; /* Adjust the gap as needed */
+    gap: 1rem;
     align-items: center;
 }
 
 header .container .info .call-to-action a {
     display: flex;
     align-items: center;
-    gap: 0.5rem; /* Adjust the gap between icon and text */
+    gap: 0.5rem;
     font-weight: 500;
     color: var(--color-primary);
     transition: all 300ms ease;
