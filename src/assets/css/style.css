@@ -254,3 +254,16 @@ section#promo-video .container {
 section#promo-video .container video {
     width: 100%;
 }
+
+section#promo-video .container button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: var(--color-dark);
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+    border-radius: 50%;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
