@@ -376,8 +376,11 @@ section#reasons-to-buy .container a {
     margin-top: 1rem;
 }
 
-section#reasons-to-buy .container a:hover img {
-    filter: drop-shadow(0 10rem 0.2rem var(--color-primary));
+.learnMore {
+    filter: opacity(0.4);
+}
+.learnMore:hover {
+    filter: opacity(0.8);
     transition: all 300ms ease;
 }
 /* Reasons to buy end */
