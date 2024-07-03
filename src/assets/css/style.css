@@ -396,6 +396,11 @@ section#reasons-to-buy .container a {
 /* Reasons to buy end */
 
 /* clients */
+section#clients-box {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
 section#clients-box h4 {
     text-align: center;
     font-size: 1rem;
@@ -412,8 +417,9 @@ section#clients-box .clients {
 }
 
 section#clients-box .clients:hover {
-    animation-play-state:paused;
+    animation-play-state: paused;
 }
+
 section#clients-box .clients div {
     transition: transform 0.5s ease;
 }
@@ -442,4 +448,5 @@ section#clients-box .clients img:hover {
         transform: translateX(-100%);
     }
 }
+
 /* clients end */
