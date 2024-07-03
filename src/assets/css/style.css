@@ -20,12 +20,13 @@
 
 html {
     scroll-behavior: smooth;
-    scrollbar-width: thin;
+    overflow-x: hidden;
 }
 
 body {
     font-family: 'Playwrite NL', serif;
     background-color: var(--color-dark);
+    overflow-x: hidden;
 }
 
 a {
@@ -51,7 +52,7 @@ a {
     
     h1 {
         font-size: 6rem;
-        letter-spacing: -0, 4rem;
+        letter-spacing: -0.4rem;
         line-height: 0.7;
     }
     
@@ -125,6 +126,7 @@ a {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        width: var(--width);
 }
 nav .container ul {
     display: flex;
@@ -168,6 +170,7 @@ header .container {
     align-items: center;
     max-height: 100%;
     margin-top:-5%;
+    max-width: 100%;
 }
 
 header .container .info .delivery {
