@@ -33,125 +33,126 @@ a {
     color: var(--color-primary);
     text-decoration: none;
     transition: all 300ms ease;
-    }
-    
-    .container {
-        width: var(--width);
-        margin: 0 auto;
-    }
-    
-    h1,
-    h2,
-    h3,
-    h4,
-    h5 {
-        color: var(--color-primary);
-        font-family: playfair-display, serif;
-        font-weight: 700;
-    }
-    
-    h1 {
-        font-size: 6rem;
-        letter-spacing: -0.4rem;
-        line-height: 0.7;
-    }
-    
-    h2 {
-        font-size: 3.2rem;
-        letter-spacing: -0.2rem;
-    }
-    
-    h3 {
-        font-size: 2rem;
-    }
-    
-    h4,
-    h5 {
-        font-size: 1.4rem;
-        font-family: playfair-display, serif;
-        color: var(--color-primary);
-    }
-    
-    h5 {
-        font-size: 1rem;
-    }
-    
-    p {
-        line-height: 1.6;
-    }
-    
-    .btn {
-        padding: 1rem 2rem;
-        border-radius: 3rem;
-        font-weight: 400;
-        background: var(--color-black);
-        color: var(--color-primary);
-        border: 1px solid transparent;
-        cursor: pointer;
-        transition: all 300ms ease;
-    }
-    
-    .btn:hover {
-        background: var(--color-primary);
-        color: var(--color-light);
-        border: 1px solid var(--color-black);
-    }
-    
-    .btn-primary {
-        background: var(--color-black);
-        color: var(--color-primary);
-    }
-    
-    section {
-        max-width: 100vw;
-        padding: 12rem 0 0;
-    }
-
-    .hover-underline-animation {
-        display: inline-block;
-        position: relative;
-      }
-      
-      .hover-underline-animation::after {
-        content: '';
-        position: absolute;
-        width: 100%;
-        transform: scaleX(0);
-        height: 2px;
-        bottom: 0;
-        left: 0;
-        background-color: var(--color-primary);
-        transform-origin: bottom right;
-        transition: transform 0.50s ease-out;
-      }
-      
-      .hover-underline-animation:hover::after {
-        transform: scaleX(1);
-        transform-origin: bottom left;
-      }
-    
-    /*nav start */
-    nav {
-        width: 100vw;
-        height: 5rem;
-        display: grid;
-        place-items: center;
-        position: fixed;
-        z-index: 2;
-        background: var(--color-dark);
-        box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
-    }
-    
-    nav button {
-        display: none;
-    }
-    
-    nav .container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: var(--width);
 }
+
+.container {
+    width: var(--width);
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: var(--color-primary);
+    font-family: playfair-display, serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 6rem;
+    letter-spacing: -0.4rem;
+    line-height: 0.7;
+}
+
+h2 {
+    font-size: 3.2rem;
+    letter-spacing: -0.2rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4,
+h5 {
+    font-size: 1.4rem;
+    font-family: playfair-display, serif;
+    color: var(--color-primary);
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.btn {
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    font-weight: 400;
+    background: var(--color-black);
+    color: var(--color-primary);
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.btn:hover {
+    background: var(--color-primary);
+    color: var(--color-light);
+    border: 1px solid var(--color-black);
+}
+
+.btn-primary {
+    background: var(--color-black);
+    color: var(--color-primary);
+}
+
+section {
+    max-width: 100vw;
+    padding: 12rem 0 0;
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+}
+
+.hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--color-primary);
+    transform-origin: bottom right;
+    transition: transform 0.50s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+/*nav start */
+nav {
+    width: 100vw;
+    height: 5rem;
+    display: grid;
+    place-items: center;
+    position: fixed;
+    z-index: 2;
+    background: var(--color-dark);
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+nav button {
+    display: none;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: var(--width);
+}
+
 nav .container ul {
     display: flex;
     gap: 3rem;
@@ -170,6 +171,7 @@ nav .icons {
     gap: 2rem;
     font-size: 1.2rem;
 }
+
 /*end*/
 
 /* Header starts here */
@@ -189,11 +191,11 @@ header {
 
 header .container {
     display: grid;
-    grid-template-columns:50rem auto 20rem;
+    grid-template-columns: 50rem auto 20rem;
     gap: 2.5rem;
     align-items: center;
     max-height: 100%;
-    margin-top:-5%;
+    margin-top: -5%;
     max-width: 100%;
 }
 
@@ -206,6 +208,7 @@ header .container .info .delivery {
     color: var(--color-black);
     margin-bottom: 1.5rem;
 }
+
 header .container .info .delivery img {
     margin-left: 0.3rem;
     position: relative;
@@ -248,8 +251,9 @@ header .container .info .call-to-action a:last-child {
     color: var(--color-primary);
     transition: all 300ms ease;
 }
+
 header .container .info .call-to-action a:last-child:hover {
-   color: var(--color-light);
+    color: var(--color-light);
 }
 
 header .container .info .call-to-action a:last-child:hover img {
@@ -278,6 +282,7 @@ section#promo-video .container {
     width: 74%;
     box-shadow: 0 2rem 3rem rgba(0, 0, 0, 1);
 }
+
 section#promo-video .container video {
     width: 100%;
 }
@@ -294,6 +299,7 @@ section#promo-video .container button {
     cursor: pointer;
     transition: all 300ms ease;
 }
+
 /* Promo video ends here */
 
 /* Products */
@@ -302,7 +308,8 @@ section#products .container {
     color: var(--color-light);
 }
 
-section#products .container > h2, section#products .container > p{
+section#products .container>h2,
+section#products .container>p {
     text-align: center;
 }
 
@@ -328,6 +335,7 @@ section#products article:last-child .image {
 section#products a:hover {
     text-decoration: underline;
 }
+
 /* Products end */
 
 /* Reasons to buy */
@@ -338,19 +346,19 @@ section#reasons-to-buy .container .head {
 }
 
 section#reasons-to-buy .container .head .left h4 {
-    font-style: italic;  
+    font-style: italic;
 }
 
 section#reasons-to-buy .container .head .right {
     display: flex;
     gap: 2rem;
-    width: 16rem; 
+    width: 16rem;
 }
 
 section#reasons-to-buy .container .head .right h4 {
     margin-top: 1rem;
     color: var(--color-primary);
-    font-weight: 700; 
+    font-weight: 700;
 }
 
 section#reasons-to-buy .container article {
@@ -379,10 +387,12 @@ section#reasons-to-buy .container a {
 .learnMore {
     filter: opacity(0.4);
 }
+
 .learnMore:hover {
     filter: opacity(0.8);
     transition: all 300ms ease;
 }
+
 /* Reasons to buy end */
 
 /* clients */
@@ -392,6 +402,7 @@ section#clients-box h4 {
     text-transform: uppercase;
     font-weight: 700;
 }
+
 section#clients-box .clients {
     display: flex;
     align-items: center;
@@ -399,39 +410,36 @@ section#clients-box .clients {
     margin-top: 4rem;
     animation: scroll-left 20s linear infinite;
 }
+
+section#clients-box .clients:hover {
+    animation-play-state:paused;
+}
 section#clients-box .clients div {
     transition: transform 0.5s ease;
 }
+
+section#clients-box .clients div:hover {
+    transform: scale(1.2) translateZ(0);
+}
+
 section#clients-box .clients img {
     width: 10rem;
     filter: grayscale(100%);
     transition: all 300ms ease;
 }
+
 section#clients-box .clients img:hover {
     filter: grayscale(0);
     transition: all 300ms ease;
-}
-
-.clients-container {
-    overflow: hidden;
-    white-space: nowrap;
-}
-
-.clients div:hover {
-    transform: scale(1.2) translateZ(0); /* 3D effect on hover */
 }
 
 @keyframes scroll-left {
     0% {
         transform: translateX(100%);
     }
+
     100% {
         transform: translateX(-100%);
     }
-}
-
-/* Pause animation on hover */
-.clients:hover {
-    animation-play-state: paused;
 }
 /* clients end */
