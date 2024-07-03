@@ -397,6 +397,10 @@ section#clients-box .clients {
     align-items: center;
     justify-content: space-between;
     margin-top: 4rem;
+    animation: scroll-left 20s linear infinite;
+}
+section#clients-box .clients div {
+    transition: transform 0.5s ease;
 }
 section#clients-box .clients img {
     width: 10rem;
@@ -406,5 +410,28 @@ section#clients-box .clients img {
 section#clients-box .clients img:hover {
     filter: grayscale(0);
     transition: all 300ms ease;
+}
+
+.clients-container {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.clients div:hover {
+    transform: scale(1.2) translateZ(0); /* 3D effect on hover */
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* Pause animation on hover */
+.clients:hover {
+    animation-play-state: paused;
 }
 /* clients end */
