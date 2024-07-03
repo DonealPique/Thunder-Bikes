@@ -157,6 +157,7 @@ header {
     top: 5rem;
     display: grid;
     place-items: center;
+    border-bottom: 2px solid;
 }
 
 header .container {
