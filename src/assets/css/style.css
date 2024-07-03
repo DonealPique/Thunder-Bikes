@@ -291,4 +291,15 @@ section#products article p {
     margin: 1.5rem 0 1rem;
 }
 
+section#products article:last-child {
+    grid-template-columns: 60% 40%;
+}
+
+section#products article:last-child .image {
+    margin-right: -8rem;
+}
+
+section#products a:hover {
+    text-decoration: underline;
+}
 /* Products end */
