@@ -384,3 +384,27 @@ section#reasons-to-buy .container a {
     transition: all 300ms ease;
 }
 /* Reasons to buy end */
+
+/* clients */
+section#clients-box h4 {
+    text-align: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+section#clients-box .clients {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+section#clients-box .clients img {
+    width: 10rem;
+    filter: grayscale(100%);
+    transition: all 300ms ease;
+}
+section#clients-box .clients img:hover {
+    filter: grayscale(0);
+    transition: all 300ms ease;
+}
+/* clients end */
