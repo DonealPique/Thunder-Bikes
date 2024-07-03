@@ -275,6 +275,7 @@ section#promo-video .container button {
 /* Products */
 section#products .container {
     width: 56%;
+    color: var(--color-light);
 }
 
 section#products .container > h2, section#products .container > p{
