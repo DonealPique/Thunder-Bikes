@@ -270,3 +270,23 @@ section#promo-video .container button {
 /* Promo video ends here */
 
 /* Products */
+section#products .container {
+    width: 56%;
+}
+
+section#products .container > h2, section#products .container > p{
+    text-align: center;
+}
+
+section#products article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+section#products article p {
+    margin: 1.5rem 0 1rem;
+}
+
+/* Products end */
