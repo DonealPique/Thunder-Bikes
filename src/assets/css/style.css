@@ -340,4 +340,44 @@ section#reasons-to-buy .container .head {
 section#reasons-to-buy .container .head .left h4 {
     font-style: italic;  
 }
+
+section#reasons-to-buy .container .head .right {
+    display: flex;
+    gap: 2rem;
+    width: 16rem; 
+}
+
+section#reasons-to-buy .container .head .right h4 {
+    margin-top: 1rem;
+    color: var(--color-primary);
+    font-weight: 700; 
+}
+
+section#reasons-to-buy .container article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 6rem;
+}
+
+section#reasons-to-buy .container article h4 {
+    margin-bottom: 1.4rem;
+    font-weight: 700;
+    color: var(--color-primary);
+}
+
+section#reasons-to-buy .container article p {
+    margin-bottom: 1rem;
+}
+
+section#reasons-to-buy .container a {
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+section#reasons-to-buy .container a:hover img {
+    filter: drop-shadow(0 10rem 0.2rem var(--color-primary));
+    transition: all 300ms ease;
+}
 /* Reasons to buy end */
