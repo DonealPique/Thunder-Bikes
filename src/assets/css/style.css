@@ -329,3 +329,14 @@ section#products a:hover {
 }
 /* Products end */
 
+/* Reasons to buy */
+
+section#reasons-to-buy .container .head {
+    display: flex;
+    justify-content: space-between;
+}
+
+section#reasons-to-buy .container .head .left h4 {
+    font-style: italic;  
+}
+/* Reasons to buy end */
