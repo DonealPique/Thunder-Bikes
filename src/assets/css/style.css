@@ -341,16 +341,16 @@ section#products a:hover {
 
 /* Reasons to buy */
 
-section#reasons-to-buy .container .head {
+section#Reasons-to-buy .container .head {
     display: flex;
     justify-content: space-between;
 }
 
-section#reasons-to-buy .container .head .left h4 {
+section#Reasons-to-buy .container .head .left h4 {
     font-style: italic;
 }
 
-section#reasons-to-buy .container .head .right {
+section#Reasons-to-buy .container .head .right {
     display: flex;
     gap: 2rem;
     width: 16rem;
@@ -362,7 +362,7 @@ section#reasons-to-buy .container .head .right h4 {
     font-weight: 700;
 }
 
-section#reasons-to-buy .container article {
+section#Reasons-to-buy .container article {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -370,17 +370,17 @@ section#reasons-to-buy .container article {
     margin-top: 6rem;
 }
 
-section#reasons-to-buy .container article h4 {
+section#Reasons-to-buy .container article h4 {
     margin-bottom: 1.4rem;
     font-weight: 700;
     color: var(--color-primary);
 }
 
-section#reasons-to-buy .container article p {
+section#Reasons-to-buy .container article p {
     margin-bottom: 1rem;
 }
 
-section#reasons-to-buy .container a {
+section#Reasons-to-buy .container a {
     display: inline-block;
     margin-top: 1rem;
 }
