@@ -396,10 +396,6 @@ section#Reasons-to-buy .container a {
     display: inline-block;
     margin-top: 1rem;
 }
-section#Reasons-to-buy .container article .learnMore img {
-    position: absolute;
-    left: 112%;
-}
 .learnMore {
     filter: opacity(0.4);
 }
