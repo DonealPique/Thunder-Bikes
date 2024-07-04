@@ -340,7 +340,9 @@ section#products a:hover {
 /* Products end */
 
 /* Reasons to buy */
-
+section#Reasons-to-buy {
+    text-align: center;
+}
 section#Reasons-to-buy .container .head {
     display: flex;
     justify-content: space-between;
@@ -348,6 +350,7 @@ section#Reasons-to-buy .container .head {
 
 section#Reasons-to-buy .container .head .left h4 {
     font-style: italic;
+    font-size: 30px;
 }
 
 section#Reasons-to-buy .container .head .right {
