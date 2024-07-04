@@ -353,6 +353,9 @@ section#Reasons-to-buy .container .head .left h4 {
     font-size: 30px;
     margin-bottom: 1rem;
 }
+section#Reasons-to-buy .container .head .left p {
+    margin-top: 1rem;
+}
 
 section#Reasons-to-buy .container .head .right {
     display: flex;
