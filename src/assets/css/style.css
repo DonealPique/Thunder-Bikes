@@ -397,8 +397,9 @@ section#Reasons-to-buy .container a {
     margin-top: 1rem;
 }
 section#Reasons-to-buy .container article .learnMore img {
-    display: flex;
-    justify-content: -end;
+    position: absolute;
+    bottom:500%;
+    left: 112%;
 }
 .learnMore {
     filter: opacity(0.4);
