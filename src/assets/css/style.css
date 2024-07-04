@@ -350,13 +350,14 @@ section#Reasons-to-buy .container .head {
 
 section#Reasons-to-buy .container .head .left h4 {
     font-style: italic;
-    font-size: 30px;
+    font-size: 2.5rem;
 }
 section#Reasons-to-buy .container .head .left p {
     margin-top: 1rem;
 }
 section#Reasons-to-buy .container .head .left h2 {
     margin-top: 1rem;
+    font-size: 2.5rem;
 }
 
 section#Reasons-to-buy .container .head .right {
@@ -369,6 +370,7 @@ section#Reasons-to-buy .container .head .right h4 {
     margin-top: 1rem;
     color: var(--color-primary);
     font-weight: 700;
+    font-size: 2rem;
 }
 
 section#Reasons-to-buy .container article {
@@ -383,6 +385,7 @@ section#Reasons-to-buy .container article h4 {
     margin-bottom: 1.4rem;
     font-weight: 700;
     color: var(--color-primary);
+    font-size: 2.5rem;
 }
 
 section#Reasons-to-buy .container article p {
