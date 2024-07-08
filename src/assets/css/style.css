@@ -465,4 +465,26 @@ section#clients-box .clients img:hover {
 /* clients end */
 
 /* Testimonials */
+.swiper {
+    width: var(--width);
+    height: 100%;
+    margin-top: 12rem;
+}
+
+.swiper-wrapper {
+    width: var(--width);
+    margin-bottom: 3rem;
+}
+
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+    background: var(--color-dark);
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+}
 /* Testimonials end */
