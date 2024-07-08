@@ -426,7 +426,7 @@ section#clients-box .clients {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 4rem;
+    margin-top: 1rem;
     animation: scroll-left 20s linear infinite;
 }
 
