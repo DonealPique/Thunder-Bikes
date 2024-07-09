@@ -482,7 +482,8 @@ section#clients-box .clients img:hover {
     width: var(--width);
     height: 100%;
     margin-top: 12rem;
-    background: var(--color-primary);
+    border: 2px transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .swiper-wrapper {
