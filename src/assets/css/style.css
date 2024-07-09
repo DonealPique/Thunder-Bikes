@@ -465,6 +465,9 @@ section#clients-box .clients img:hover {
 /* clients end */
 
 /* Testimonials */
+article .swiper-slide .image {
+    width: 20%;
+}
 .swiper {
     width: var(--width);
     height: 100%;
