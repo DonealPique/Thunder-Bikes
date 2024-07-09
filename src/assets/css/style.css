@@ -468,7 +468,12 @@ section#clients-box .clients img:hover {
 .swiper-slide .image img {
     width: 100%;
 }
-
+.swiper-slide:nth-of-type(2) .image img {
+    width: 70%;
+}
+.swiper-slide:nth-of-type(3) .image img {
+    width: 120%;
+}
 .swiper {
     width: var(--width);
     height: 100%;
