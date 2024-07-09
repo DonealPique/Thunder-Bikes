@@ -476,7 +476,7 @@ section#clients-box .clients img:hover {
     margin-top: 3rem;
 }
 .swiper-slide:nth-of-type(4) .image img {
-    width: 85%;
+    width: 80%;
 }
 .swiper {
     width: var(--width);
