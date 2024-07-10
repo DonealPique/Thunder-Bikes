@@ -554,13 +554,8 @@ section#faqs .content article {
     display: flex;
     gap: 1.4rem;
     height: fit-content;
-    background: var(--color-primary);
+    background: var(--color-light);
     cursor: pointer;
-}
-
-section#faqs .content article {
-    color: var(--color-light);
-    font-size: 1.2rem;
 }
 
 section#faqs .content h4 {
