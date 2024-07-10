@@ -572,4 +572,16 @@ section#faqs .content p {
 section#faqs .content article img {
     width: 0.9rem;
 }
+
+section#faqs .content article.open p {
+    display: block;
+}
+
+section#faqs a.btn {
+    display: block;
+    margin: 0 auto;
+    width: 12rem;
+    text-align: center;
+    margin-top: 1.6rem;
+}
 /* faqs end */
