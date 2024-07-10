@@ -554,15 +554,16 @@ section#faqs .content article {
     display: flex;
     gap: 1.4rem;
     height: fit-content;
-    background: var(--color-light);
+    background: var(--color-dark);
     cursor: pointer;
 }
 
 section#faqs .content h4 {
-    color: var(--color-light);
+    color: var(--color-primary);
 }
 
 section#faqs .content p {
     color: var(--color-light);
+    margin-top: 1rem;
 }
 /* faqs end */
