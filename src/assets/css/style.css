@@ -560,10 +560,12 @@ section#faqs .content article {
 
 section#faqs .content h4 {
     color: var(--color-primary);
+    font-size: 1rem;
 }
 
 section#faqs .content p {
     color: var(--color-light);
     margin-top: 1rem;
+    display: none;
 }
 /* faqs end */
