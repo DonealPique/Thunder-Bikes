@@ -536,8 +536,7 @@ section#clients-box .clients img:hover {
 }
 /* Testimonials end */
 
-/* faqs  */
-
+/* FAQs */
 section#faqs h2 {
     display: flex;
     justify-content: center;
@@ -549,19 +548,29 @@ section#faqs .content {
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
 }
+
 section#faqs .content article {
     padding: 2rem;
     border-radius: 0.5rem;
     display: flex;
-    gap: 1.4rem;
+    flex-direction: column;
+    gap: 1rem;
     height: fit-content;
     background: var(--color-dark);
     cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
-section#faqs .content h4 { 
+section#faqs .content .icon-text {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+section#faqs .content h4 {
     color: var(--color-primary);
     font-size: 1rem;
+    margin: 0; /* Remove default margin */
 }
 
 section#faqs .content p {
@@ -585,7 +594,13 @@ section#faqs a.btn {
     text-align: center;
     margin-top: 1.6rem;
 }
-/* faqs end */
+
+/* 3D Hover Effect */
+section#faqs .content article:hover {
+    transform: translateY(-10px) rotateX(5deg) rotateY(5deg);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+/* FAQs end */
 
 /* cta */
 
