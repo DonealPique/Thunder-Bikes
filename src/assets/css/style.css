@@ -568,4 +568,8 @@ section#faqs .content p {
     margin-top: 1rem;
     display: none;
 }
+
+section#faqs .content article img {
+    width: 0.9rem;
+}
 /* faqs end */
