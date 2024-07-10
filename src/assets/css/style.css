@@ -558,7 +558,7 @@ section#faqs .content article {
     cursor: pointer;
 }
 
-section#faqs .content h4 {
+section#faqs .content h4 { 
     color: var(--color-primary);
     font-size: 1rem;
 }
