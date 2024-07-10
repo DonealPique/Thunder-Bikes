@@ -564,13 +564,13 @@ section#faqs .content article {
 section#faqs .content .icon-text {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 1.2rem;
 }
 
 section#faqs .content h4 {
     color: var(--color-primary);
     font-size: 1rem;
-    margin: 0; /* Remove default margin */
+    margin: 0;
 }
 
 section#faqs .content p {
@@ -595,7 +595,6 @@ section#faqs a.btn {
     margin-top: 1.6rem;
 }
 
-/* 3D Hover Effect */
 section#faqs .content article:hover {
     transform: translateY(-10px) rotateX(5deg) rotateY(5deg);
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
