@@ -539,7 +539,8 @@ section#clients-box .clients img:hover {
 /* faqs  */
 
 section#faqs h2 {
-    text-align: center;
+    display: flex;
+    justify-content: center;
     margin-bottom: 5rem;
 }
 
