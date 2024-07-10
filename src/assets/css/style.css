@@ -563,6 +563,7 @@ section#faqs .content article {
 
 section#faqs .content .icon-text {
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 1.2rem;
 }
@@ -575,6 +576,7 @@ section#faqs .content h4 {
 
 section#faqs .content p {
     color: var(--color-light);
+    text-align: center;
     margin-top: 1rem;
     display: none;
 }
