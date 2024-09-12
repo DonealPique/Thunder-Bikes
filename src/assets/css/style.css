@@ -733,7 +733,7 @@ footer .container .socials {
 footer .copyright  {
     text-align: center;
     margin-top: 5rem;
-    padding-top: 1.2rem 0;
+    padding-top: 1.2rem 0rem;
     color: var(--color-primary);
     border-top: 1px solid var(--color-primary);
 }
