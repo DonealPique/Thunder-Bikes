@@ -663,7 +663,7 @@ footer .container h4 {
     margin-bottom: 1.6rem;
 }
 
-footer .container .f1 .logo {
+footer .container .f1 .logo img {
     width: 6rem;
 }
 
@@ -744,8 +744,14 @@ footer .copyright {
     text-align: center;
     margin-top: 5rem;
     padding-top: 2rem; /* Add extra space at the top */
-    color: var(--color-primary);
     border-top: 1px solid var(--color-primary);
+}
+
+footer .copyright p {
+    color: var(--color-primary);
+}
+footer .copyright p:hover {
+    color: var(--color-light);
 }
 
 /* Hide scrollbar but keep scrolling enabled */
