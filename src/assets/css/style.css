@@ -642,7 +642,7 @@ section#cta .container .btn {
 
 /* Footer */
 footer {
-    background: var(--color-primary);
+    background: var(--color-dark);
     margin-top: 8rem;
     padding-top: 5rem;
     font-size: 0.9rem;
@@ -657,7 +657,7 @@ footer .container {
 }
 
 footer .container h4 {
-    color: var(--color-light);
+    color: var(--color-primary);
     margin-bottom: 1.6rem;
 }
 footer .container .f1 .logo {
@@ -665,5 +665,49 @@ footer .container .f1 .logo {
 }
 footer .container .f1 p {
     margin: 1rem 0 2rem;
+}
+
+footer .container .f1 .subscribe {
+    border: 1px solid var(--color-light);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 3rem;
+}
+
+footer .container .f1 .subscribe input {
+    background: transparent;
+    color: var(--color-light);
+    margin-left: 1rem;
+}
+footer .container .f1 .subscribe input::placeholder {
+    color: var(--color-light);
+}
+
+footer .container .f1 .subscribe button {
+    background: var(--color-black);
+    color: var(--color-primary);
+    transition: all 300ms ease;
+    width: 3rem;
+    height: 100%;
+    font-size: 1.3rem;
+}
+
+footer .container .f1 .subscribe button:hover {
+    background: var(--color-primary);
+    color: var(--color-light);
+    cursor: pointer;
+}
+
+footer .container ul li {
+    margin-bottom: 1rem;
+}
+
+footer .container ul li a {
+    color: var(--color-primary);
+}
+
+footer .container ul li a:hover {
+    color: var(--color-light);
 }
 /* Footer end */
