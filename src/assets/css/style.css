@@ -716,12 +716,18 @@ footer .container ul li a:hover {
     color: var(--color-light);
 }
 
-footer .container .f4 {
+footer .container .f4 p {
     margin-bottom: 1.6rem;
+    color: var(--color-primary);
+}
+
+footer .container .f4 p:hover {
+    color: var(--color-light);
 }
 
 footer .container .socials {
     display: flex;
     gap: 1rem;
+    font-size: 1.4rem;
 }
 /* Footer end */
