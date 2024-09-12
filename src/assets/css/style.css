@@ -715,4 +715,13 @@ footer .container ul li a {
 footer .container ul li a:hover {
     color: var(--color-light);
 }
+
+footer .container .f4 {
+    margin-bottom: 1.6rem;
+}
+
+footer .container .socials {
+    display: flex;
+    gap: 1rem;
+}
 /* Footer end */
