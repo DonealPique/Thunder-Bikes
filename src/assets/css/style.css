@@ -641,4 +641,27 @@ section#cta .container .btn {
 /* cta end */
 
 /* Footer */
+footer {
+    background: var(--color-primary);
+    margin-top: 8rem;
+    padding-top: 5rem;
+    font-size: 0.9rem;
+    color: var(--color-light);
+}
+
+footer .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5rem;
+    justify-content: space-between;
+}
+
+footer .container h4 {
+    color: var(--color-light);
+    margin-bottom: 1.6rem;
+}
+
+footer .container .f1 p {
+    
+}
 /* Footer end */
