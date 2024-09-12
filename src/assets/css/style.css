@@ -665,6 +665,11 @@ footer .container .f1 .logo {
 }
 footer .container .f1 p {
     margin: 1rem 0 2rem;
+    color: var(--color-primary);
+}
+footer .container .f1 p:hover {
+    margin: 1rem 0 2rem;
+    color: var(--color-light);
 }
 
 footer .container .f1 .subscribe {
