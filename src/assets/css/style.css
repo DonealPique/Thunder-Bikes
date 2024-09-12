@@ -641,32 +641,37 @@ section#cta .container .btn {
 /* cta end */
 
 /* Footer */
+/* Footer */
 footer {
     background: var(--color-dark);
     margin-top: 8rem;
     padding-top: 5rem;
     font-size: 0.9rem;
     color: var(--color-light);
+    text-align: center; /* Center all text in the footer */
 }
 
 footer .container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 1fr; /* Make all content center in one column */
     gap: 3rem;
-    justify-content: space-between;
+    justify-content: center; /* Center the content horizontally */
 }
 
 footer .container h4 {
     color: var(--color-primary);
     margin-bottom: 1.6rem;
 }
+
 footer .container .f1 .logo {
     width: 6rem;
 }
+
 footer .container .f1 p {
     margin: 1rem 0 2rem;
     color: var(--color-primary);
 }
+
 footer .container .f1 p:hover {
     margin: 1rem 0 2rem;
     color: var(--color-light);
@@ -678,6 +683,8 @@ footer .container .f1 .subscribe {
     align-items: center;
     justify-content: space-between;
     height: 3rem;
+    margin: 0 auto; /* Center the subscribe box */
+    width: 100%; /* Ensure the subscribe box fills the available space */
 }
 
 footer .container .f1 .subscribe input {
@@ -685,6 +692,7 @@ footer .container .f1 .subscribe input {
     color: var(--color-light);
     margin-left: 1rem;
 }
+
 footer .container .f1 .subscribe input::placeholder {
     color: var(--color-light);
 }
@@ -727,14 +735,29 @@ footer .container .f4 p:hover {
 
 footer .container .socials {
     display: flex;
+    justify-content: center; /* Center social icons */
     gap: 1rem;
     font-size: 1.4rem;
 }
-footer .copyright  {
+
+footer .copyright {
     text-align: center;
     margin-top: 5rem;
-    padding-top: 1.2rem 0rem;
+    padding-top: 2rem; /* Add extra space at the top */
     color: var(--color-primary);
     border-top: 1px solid var(--color-primary);
 }
+
+/* Hide scrollbar but keep scrolling enabled */
+body {
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+    scrollbar-width: none; /* For Firefox */
+}
+
+body::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+}
+
+/* Footer end */
+
 /* Footer end */
