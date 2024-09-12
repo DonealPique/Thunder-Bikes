@@ -673,7 +673,7 @@ footer .container .f1 p:hover {
 }
 
 footer .container .f1 .subscribe {
-    border: 1px solid var(--color-light);
+    border: 1px solid var(--color-primary);
     display: flex;
     align-items: center;
     justify-content: space-between;
