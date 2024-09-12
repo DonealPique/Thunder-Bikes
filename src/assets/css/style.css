@@ -735,7 +735,7 @@ footer .container .f4 p:hover {
 footer .container .socials {
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 3rem;
     font-size: 1.4rem;
 }
 
